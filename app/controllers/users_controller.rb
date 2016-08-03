@@ -13,11 +13,24 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
+    @plans = Plan.all
   end
 
   def create
-
     @user = User.new(user_params)
+
+    plan = Plan.find(params[:plan_id])
+
+    customer = Stripe::Customer.create(
+      source: params[:stripeToken],
+      email: user.email,
+      plan: plan.stripe_id,
+    )
+
+    @user.stripe_customer_id = customer.id
+        user.save!
+        stripe_sub = customer.subscriptions.first
+
 
     if @user.save
 

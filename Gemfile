@@ -17,6 +17,7 @@ gem 'awesome_print'
 gem 'stripe'
 gem 'jquery-turbolinks'
 gem 'client_side_validations', github: 'DavyJonesLocker/client_side_validations', branch: 'rails5'
+gem 'paper_trail'
 
 group :development, :test do
   gem 'sqlite3'
