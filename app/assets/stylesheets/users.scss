@@ -1,0 +1,41 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#plan_div {
+  display: inline-block;
+
+  .form-check-label {
+    padding: 3px;
+  }
+
+  .form-group {
+    padding: 1px;
+  }
+
+  .well {
+    background-color: #fff;
+  }
+
+  ul {
+    padding: 2em;
+    li {
+      padding: 1px;
+      font-size: 0.8em;
+    }
+  }
+}
+
+.payment-errors {
+  padding: 10px;
+  margin: 10px;
+  color: red;
+}
+
+#new_subscription_form .form-control {
+  margin-bottom: 8px;
+}
+
+#new_subscription_form .message {
+  margin-left: 33px;
+}
