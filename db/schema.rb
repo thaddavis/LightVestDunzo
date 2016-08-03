@@ -48,7 +48,6 @@ ActiveRecord::Schema.define(version: 20160803154606) do
     t.datetime "reset_sent_at"
     t.string   "username"
     t.string   "stripe_customer_id"
-    t.integer  "plan"
     t.boolean  "subscribed"
     t.index ["email"], name: "index_users_on_email", unique: true
   end

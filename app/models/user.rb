@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
+  has_many :subscriptions
   before_save   :downcase_email
   before_create :create_activation_digest
   validates :name,  presence: true, length: { maximum: 50 }
@@ -10,20 +11,13 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
   validates :username, presence: true, length: { minimum: 6 }
-  validates :stripe_customer_id, presence: true
 
   enum role: [:user, :editor, :admin]
-  enum plan: [:starter, :premium, :gold]
 
   after_initialize :set_default_role
-  after_initialize :set_default_plan
 
   def set_default_role
     self.role ||= :user
-  end
-
-  def set_default_plan
-    self.plan ||= :starter
   end
 
   # Returns the hash digest of the given string.

@@ -1,12 +1,6 @@
 class CreatePlan
   def self.call(options={})
 
-    begin
-      plan = Stripe::Plan.retrieve(options[:stripe_id])
-      plan.delete unless (plan.nil?)
-    rescue Stripe::StripeError => e
-    end
-
     plan = Plan.new(options)
 
     if !plan.valid?

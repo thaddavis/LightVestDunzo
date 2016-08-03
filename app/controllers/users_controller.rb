@@ -18,21 +18,11 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
-
-    plan = Plan.find(params[:plan_id])
-
-    customer = Stripe::Customer.create(
-      source: params[:stripeToken],
-      email: user.email,
-      plan: plan.stripe_id,
-    )
-
-    @user.stripe_customer_id = customer.id
-        user.save!
-        stripe_sub = customer.subscriptions.first
-
+    @plans = Plan.all
 
     if @user.save
+
+      CreateStripeCustomer.call(params[:plan], @user.email, params[:stripeToken])
 
       @user.send_activation_email
       flash[:info] = "Please check your email to activate your account."
@@ -66,7 +56,7 @@ class UsersController < ApplicationController
 
     def user_params
       params.require(:user).permit(:name, :email, :password,
-                                   :password_confirmation, :username, :plan)
+                                   :password_confirmation, :username)
     end
 
     # Confirms a logged-in user.

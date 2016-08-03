@@ -4,7 +4,7 @@
   <% @plans.each.with_index do |p, i| %>
     <div class="form-group well col-sm-4">
       <label class="form-check-label">
-        <input class="radio-inline" type="radio" name="user[plan]" id="<%= p.id %>" value="<%= p.stripe_id %>" <%= "checked" if i == 0 %> >
+        <input class="radio-inline" type="radio" name="plan" id="<%= p.id %>" value="<%= p.stripe_id %>" <%= "checked" if i == 0 %> >
           <%=raw p.description %>
       </label>
     </div>
