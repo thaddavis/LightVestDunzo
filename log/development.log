@@ -17411,3 +17411,1957 @@ Processing by StaticPagesController#contact as HTML
 Completed 200 OK in 126ms (Views: 81.2ms | ActiveRecord: 0.6ms)
 
 
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/Witherberry/src/railsprojects/LightVestDunzo/config/environment.rb:5)
+Started GET "/contact" for ::1 at 2016-08-04 10:02:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (89.2ms)
+  Rendered layouts/_footer.html.erb (9.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 745ms (Views: 721.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:02:57 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 10:02:58 -0400
+  
+  
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+NameError (uninitialized constant ActiveRecord::Core::ClassMethods::TableMetadata):
+NameError (uninitialized constant ActiveRecord::Core::ClassMethods::TableMetadata):
+  
+activerecord (5.0.0) lib/active_record/core.rb:300:in `table_metadata'
+  
+activerecord (5.0.0) lib/active_record/core.rb:300:in `table_metadata'
+activerecord (5.0.0) lib/active_record/core.rb:273:in `predicate_builder'
+activerecord (5.0.0) lib/active_record/core.rb:290:in `relation'
+activerecord (5.0.0) lib/active_record/scoping/named.rb:38:in `default_scoped'
+activerecord (5.0.0) lib/active_record/scoping/named.rb:28:in `all'
+activerecord (5.0.0) lib/active_record/migration.rb:1030:in `block in get_all_versions'
+activesupport (5.0.0) lib/active_support/deprecation/reporting.rb:36:in `silence'
+activesupport (5.0.0) lib/active_support/deprecation/instance_delegator.rb:19:in `silence'
+activerecord (5.0.0) lib/active_record/migration.rb:1028:in `get_all_versions'
+activerecord (5.0.0) lib/active_record/core.rb:273:in `predicate_builder'
+activerecord (5.0.0) lib/active_record/core.rb:290:in `relation'
+activerecord (5.0.0) lib/active_record/migration.rb:1042:in `needs_migration?'
+activerecord (5.0.0) lib/active_record/migration.rb:572:in `check_pending!'
+activerecord (5.0.0) lib/active_record/migration.rb:548:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0) lib/active_support/callbacks.rb:90:in `run_callbacks'
+activerecord (5.0.0) lib/active_record/scoping/named.rb:38:in `default_scoped'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+request_store (1.3.1) lib/request_store/middleware.rb:9:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+activerecord (5.0.0) lib/active_record/scoping/named.rb:28:in `all'
+activerecord (5.0.0) lib/active_record/migration.rb:1030:in `block in get_all_versions'
+activesupport (5.0.0) lib/active_support/deprecation/reporting.rb:36:in `silence'
+activesupport (5.0.0) lib/active_support/deprecation/instance_delegator.rb:19:in `silence'
+activerecord (5.0.0) lib/active_record/migration.rb:1028:in `get_all_versions'
+activerecord (5.0.0) lib/active_record/migration.rb:1042:in `needs_migration?'
+activerecord (5.0.0) lib/active_record/migration.rb:572:in `check_pending!'
+activerecord (5.0.0) lib/active_record/migration.rb:548:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+request_store (1.3.1) lib/request_store/middleware.rb:9:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (160.0ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (197.9ms)
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 10:03:00 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 10:03:01 -0400
+Started GET "/contact" for ::1 at 2016-08-04 10:03:22 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 141ms (Views: 135.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 10:03:22 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:03:23 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 10:03:23 -0400
+Started GET "/" for ::1 at 2016-08-04 10:03:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (3.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 157ms (Views: 151.7ms | ActiveRecord: 0.5ms)
+
+
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/Witherberry/src/railsprojects/LightVestDunzo/config/environment.rb:5)
+Started GET "/signup" for ::1 at 2016-08-04 10:04:08 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.8ms)
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (17.7ms)
+  Rendered users/_credit_card.html.erb (100.9ms)
+  Rendered users/new.html.erb within layouts/application (1492.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (11.3ms)
+  Rendered layouts/_footer.html.erb (3.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 1735ms (Views: 1614.8ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/signup" for ::1 at 2016-08-04 10:07:40 -0400
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at /Users/Witherberry/src/railsprojects/LightVestDunzo/app/controllers/application_controller.rb:5)
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.6ms)
+  [1m[36mPlan Load (0.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (11.5ms)
+  Rendered users/_credit_card.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (47.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (3.1ms)
+Completed 200 OK in 173ms (Views: 133.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 10:07:40 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:07:40 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 10:07:40 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:07:40 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:07:40 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 10:07:40 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 10:07:40 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 10:07:40 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 10:07:40 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 10:07:40 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 10:07:41 -0400
+Started GET "/help" for ::1 at 2016-08-04 10:08:03 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at /Users/Witherberry/src/railsprojects/LightVestDunzo/app/controllers/application_controller.rb:5)
+Processing by StaticPagesController#help as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_footer.html.erb (4.8ms)
+Completed 200 OK in 586ms (Views: 509.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2016-08-04 10:08:04 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (3.5ms)
+Completed 200 OK in 145ms (Views: 140.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/3" for ::1 at 2016-08-04 10:08:07 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 142ms (Views: 135.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/3/edit" for ::1 at 2016-08-04 10:08:09 -0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.9ms)
+  Rendered users/edit.html.erb within layouts/application (848.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (3.7ms)
+Completed 200 OK in 956ms (Views: 948.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2016-08-04 10:08:19 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered users/_user.html.erb (1.6ms)
+  Rendered users/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 155ms (Views: 110.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/signup" for ::1 at 2016-08-04 10:08:21 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (1.9ms)
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (13.0ms)
+  Rendered users/_credit_card.html.erb (2.1ms)
+  Rendered users/new.html.erb within layouts/application (58.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 156ms (Views: 144.1ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/users" for ::1 at 2016-08-04 10:09:10 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QwwEJOfcyf5CLjYTjlii3E6d+BJKtSqph4Pq2m4JwgsXEP+AxDvIy9oZuS0Y9RKcofeB+jPOu2sjCGsXzsoVmQ==", "user"=>{"username"=>"thadduval", "name"=>"asdf", "email"=>"asdf@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "plan"=>"starter_plan", "stripeToken"=>"tok_18emWyBProJYO6FDwdviaEtc"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "asdf@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (1.3ms)
+  [1m[36mPlan Load (0.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (1.8ms)
+  Rendered users/_credit_card.html.erb (1.8ms)
+  Rendered users/new.html.erb within layouts/application (26.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 246ms (Views: 100.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2016-08-04 13:29:40 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <class:ApplicationController> at /Users/Witherberry/src/railsprojects/LightVestDunzo/app/controllers/application_controller.rb:5)
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (10.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (3.2ms)
+Completed 200 OK in 1999ms (Views: 1905.9ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/" for ::1 at 2016-08-04 13:30:13 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (17.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_footer.html.erb (3.7ms)
+Completed 200 OK in 755ms (Views: 687.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 13:30:14 -0400
+Started GET "/signup" for ::1 at 2016-08-04 13:30:22 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (1.4ms)
+  [1m[36mPlan Load (14.7ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (32.1ms)
+  Rendered users/_credit_card.html.erb (2.2ms)
+  Rendered users/new.html.erb within layouts/application (923.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 1050ms (Views: 996.7ms | ActiveRecord: 16.4ms)
+
+
+Started GET "/signup" for ::1 at 2016-08-04 13:31:04 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.8ms)
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (13.9ms)
+  Rendered users/_credit_card.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (808.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (3.2ms)
+Completed 200 OK in 943ms (Views: 899.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:31:05 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 13:31:06 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 13:31:06 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 13:31:06 -0400
+Started GET "/" for ::1 at 2016-08-04 13:37:33 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (3.1ms)
+Completed 200 OK in 105ms (Views: 75.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/signup" for ::1 at 2016-08-04 13:37:38 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.8ms)
+  [1m[36mPlan Load (0.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (11.9ms)
+  Rendered users/_credit_card.html.erb (2.7ms)
+  Rendered users/new.html.erb within layouts/application (40.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 128ms (Views: 116.8ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/users" for ::1 at 2016-08-04 13:39:23 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QwwEJOfcyf5CLjYTjlii3E6d+BJKtSqph4Pq2m4JwgsXEP+AxDvIy9oZuS0Y9RKcofeB+jPOu2sjCGsXzsoVmQ==", "user"=>{"username"=>"thadduval", "name"=>"asdf", "email"=>"asdf@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "plan"=>"starter_plan", "stripeToken"=>"tok_18emWyBProJYO6FDwdviaEtc"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (13.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "asdf@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (1.1ms)
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (13.5ms)
+  Rendered users/_credit_card.html.erb (2.0ms)
+  Rendered users/new.html.erb within layouts/application (39.2ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (3.2ms)
+Completed 200 OK in 348ms (Views: 127.6ms | ActiveRecord: 16.4ms)
+
+
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 13:39:24 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 13:39:24 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 13:39:24 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 13:39:24 -0400
+Started GET "/users/confirmation?confirmation_token=wPbPg1-FHR6P98vsFSLZ&amp;locale=en" for ::1 at 2016-08-04 13:42:03 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"confirmation_token"=>"wPbPg1-FHR6P98vsFSLZ", "amp"=>nil, "locale"=>"en", "id"=>"confirmation"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 4ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=confirmation):
+  
+app/controllers/users_controller.rb:11:in `show'
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.9ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (19.7ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (147.9ms)
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from <top (required)> at /Users/Witherberry/src/railsprojects/LightVestDunzo/config/environment.rb:5)
+Started GET "/users/3" for ::1 at 2016-08-04 13:52:44 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (3.1ms)
+Completed 200 OK in 195ms (Views: 98.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/3/edit" for ::1 at 2016-08-04 13:52:49 -0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.6ms)
+  Rendered users/edit.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (3.6ms)
+Completed 200 OK in 105ms (Views: 95.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/3" for ::1 at 2016-08-04 13:52:52 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 99ms (Views: 93.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/3" for ::1 at 2016-08-04 13:53:24 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (3.3ms)
+Completed 200 OK in 110ms (Views: 75.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 13:53:24 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 13:53:25 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:53:25 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 13:53:25 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:53:25 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 13:53:25 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 13:53:25 -0400
+Started GET "/" for ::1 at 2016-08-04 13:53:28 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (6.8ms)
+Completed 200 OK in 124ms (Views: 117.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signup" for ::1 at 2016-08-04 13:53:29 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 11ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/users/3" for ::1 at 2016-08-04 13:53:29 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Started GET "/signup" for ::1 at 2016-08-04 13:53:29 -0400
+  Rendered layouts/_shim.html.erb (0.6ms)
+Processing by UsersController#new as HTML
+  Rendered layouts/_header.html.erb (2.3ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 9ms (ActiveRecord: 0.7ms)
+
+
+  Rendered layouts/_footer.html.erb (7.3ms)
+Completed 200 OK in 126ms (Views: 117.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/3" for ::1 at 2016-08-04 13:53:29 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 111ms (Views: 102.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-08-04 13:53:39 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 93ms (Views: 87.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/signup" for ::1 at 2016-08-04 13:53:41 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/users/3" for ::1 at 2016-08-04 13:53:41 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (3.1ms)
+Completed 200 OK in 85ms (Views: 79.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/help" for ::1 at 2016-08-04 13:53:43 -0400
+Processing by StaticPagesController#help as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 136ms (Views: 80.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for ::1 at 2016-08-04 13:53:45 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"b0BFMB7+DT6n4mDEnAYbyET+RzHz1TYzdluEV6J96cQ7XL6UPRkMCz/V7/oKq6uIq5Q+2Yqup/HS0AWaAr4+Vg=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-08-04 13:53:45 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 73ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2016-08-04 13:53:47 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  [1m[36mPlan Load (0.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (13.2ms)
+  Rendered users/_credit_card.html.erb (3.6ms)
+  Rendered users/new.html.erb within layouts/application (42.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 145ms (Views: 140.7ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT  "plans".* FROM "plans" WHERE "plans"."stripe_id" = ? LIMIT ?[0m  [["stripe_id", "premium_plan"], ["LIMIT", 1]]
+  [1m[36mPlan Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "plans" WHERE "plans"."stripe_id" = ? LIMIT ?[0m  [["stripe_id", "premium_plan"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlan Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "plans" WHERE "plans"."stripe_id" = ? LIMIT ?[0m  [["stripe_id", "premium_plan"], ["LIMIT", 1]]
+  [1m[35mSQL (41.1ms)[0m  [1m[32mINSERT INTO "plans" ("stripe_id", "name", "description", "amount", "interval", "published", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["stripe_id", "premium_plan"], ["name", "Premium Plan"], ["description", "<h4 class=\"text-center\">Premium</h4><ul><li> $100.00 + monthly consultation fees </li><li> Unlimited use of all our software tools </li><li> 90-day money-back guarantee </li><li> Customized financial advice </li></ul>"], ["amount", 10000], ["interval", "month"], ["published", true], ["created_at", 2016-08-04 17:54:16 UTC], ["updated_at", 2016-08-04 17:54:16 UTC]]
+  [1m[35mSQL (12.2ms)[0m  [1m[32mINSERT INTO "versions" ("item_type", "item_id", "event", "created_at", "object_changes") VALUES (?, ?, ?, ?, ?)[0m  [["item_type", "Plan"], ["item_id", 2], ["event", "create"], ["created_at", 2016-08-04 17:54:16 UTC], ["object_changes", "---\nid:\n- \n- 2\nstripe_id:\n- \n- premium_plan\nname:\n- \n- Premium Plan\ndescription:\n- \n- <h4 class=\"text-center\">Premium</h4><ul><li> $100.00 + monthly consultation fees\n  </li><li> Unlimited use of all our software tools </li><li> 90-day money-back guarantee\n  </li><li> Customized financial advice </li></ul>\namount:\n- \n- 10000\ninterval:\n- \n- month\npublished:\n- \n- true\ncreated_at:\n- \n- 2016-08-04 17:54:16.828642000 Z\nupdated_at:\n- \n- 2016-08-04 17:54:16.828642000 Z\n"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPlan Load (0.2ms)[0m  [1m[34mSELECT  "plans".* FROM "plans" WHERE "plans"."stripe_id" = ? LIMIT ?[0m  [["stripe_id", "gold_plan"], ["LIMIT", 1]]
+  [1m[36mPlan Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "plans" WHERE "plans"."stripe_id" = ? LIMIT ?[0m  [["stripe_id", "gold_plan"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPlan Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "plans" WHERE "plans"."stripe_id" = ? LIMIT ?[0m  [["stripe_id", "gold_plan"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "plans" ("stripe_id", "name", "description", "amount", "interval", "published", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["stripe_id", "gold_plan"], ["name", "Gold Plan"], ["description", "<h4 class=\"text-center\">Gold</h4><ul><li> $200.00 + monthly consultation fees </li><li> 90-day money-back guarantee </li><li> Personalized financial advice </li></ul>"], ["amount", 100000], ["interval", "month"], ["published", true], ["created_at", 2016-08-04 17:54:23 UTC], ["updated_at", 2016-08-04 17:54:23 UTC]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "versions" ("item_type", "item_id", "event", "created_at", "object_changes") VALUES (?, ?, ?, ?, ?)[0m  [["item_type", "Plan"], ["item_id", 3], ["event", "create"], ["created_at", 2016-08-04 17:54:23 UTC], ["object_changes", "---\nid:\n- \n- 3\nstripe_id:\n- \n- gold_plan\nname:\n- \n- Gold Plan\ndescription:\n- \n- <h4 class=\"text-center\">Gold</h4><ul><li> $200.00 + monthly consultation fees </li><li>\n  90-day money-back guarantee </li><li> Personalized financial advice </li></ul>\namount:\n- \n- 100000\ninterval:\n- \n- month\npublished:\n- \n- true\ncreated_at:\n- \n- 2016-08-04 17:54:23.267926000 Z\nupdated_at:\n- \n- 2016-08-04 17:54:23.267926000 Z\n"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/signup" for ::1 at 2016-08-04 13:54:38 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.9ms)
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (2.4ms)
+  Rendered users/_credit_card.html.erb (2.2ms)
+  Rendered users/new.html.erb within layouts/application (30.6ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 119ms (Views: 114.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 13:54:38 -0400
+Started GET "/signup" for ::1 at 2016-08-04 13:54:57 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.8ms)
+  [1m[36mPlan Load (0.5ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (2.4ms)
+  Rendered users/_credit_card.html.erb (2.0ms)
+  Rendered users/new.html.erb within layouts/application (29.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 107ms (Views: 102.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 13:54:57 -0400
+Started GET "/signup" for ::1 at 2016-08-04 13:55:04 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (2.3ms)
+  Rendered users/_credit_card.html.erb (2.0ms)
+  Rendered users/new.html.erb within layouts/application (26.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 120ms (Views: 114.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 13:55:04 -0400
+Started GET "/signup" for ::1 at 2016-08-04 13:55:08 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  [1m[36mPlan Load (0.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (2.1ms)
+  Rendered users/_credit_card.html.erb (2.0ms)
+  Rendered users/new.html.erb within layouts/application (27.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 101ms (Views: 97.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 13:55:08 -0400
+Started GET "/signup" for ::1 at 2016-08-04 13:59:08 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.6ms)
+  [1m[36mPlan Load (0.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (1.7ms)
+  Rendered users/_credit_card.html.erb (1.7ms)
+  Rendered users/new.html.erb within layouts/application (39.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 122ms (Views: 119.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 13:59:08 -0400
+Started GET "/users" for ::1 at 2016-08-04 14:05:14 -0400
+Processing by UsersController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:05:14 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (13.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (3.7ms)
+Completed 200 OK in 110ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1" for ::1 at 2016-08-04 14:05:17 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 404 Not Found in 16ms (ActiveRecord: 1.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=1):
+  
+app/controllers/users_controller.rb:11:in `show'
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (124.6ms)
+Started GET "/users/2" for ::1 at 2016-08-04 14:05:20 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=2):
+  
+app/controllers/users_controller.rb:11:in `show'
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (108.7ms)
+Started GET "/users/3" for ::1 at 2016-08-04 14:05:22 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 108ms (Views: 86.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/3" for ::1 at 2016-08-04 14:07:01 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Redirected to http://localhost:3000/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:07:02 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (3.4ms)
+Completed 200 OK in 86ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:07:02 -0400
+Started GET "/login" for ::1 at 2016-08-04 14:09:21 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (55.5ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (6.4ms)
+Completed 200 OK in 138ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:09:21 -0400
+Started GET "/users/3" for ::1 at 2016-08-04 14:09:28 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Redirected to http://localhost:3000/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:09:28 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 83ms (Views: 79.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:09:47 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 88ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:09:47 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:09:48 -0400
+Started GET "/users/3" for ::1 at 2016-08-04 14:09:55 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Redirected to http://localhost:3000/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:09:55 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 88ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/3" for ::1 at 2016-08-04 14:10:11 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Redirected to http://localhost:3000/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:10:11 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 79ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:11:13 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial sessions/_flash_messages, application/_flash_messages with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Witherberry/src/railsprojects/LightVestDunzo/app/views"
+):
+    12:   <body>
+    13:     <%= render 'layouts/header' %>
+    14:     <div class="container">
+    15:       <%= render 'flash_messages' %>
+    16:       <%= yield %>
+    17:       <%= render 'layouts/footer' %>
+    18:       <%= debug(params) if Rails.env.development? %>
+  
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___2924721205375246906_70168401504220'
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.4ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (122.7ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/login" for ::1 at 2016-08-04 14:11:30 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial sessions/_flash_messages, application/_flash_messages with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Witherberry/src/railsprojects/LightVestDunzo/app/views"
+):
+    12:   <body>
+    13:     <%= render 'layouts/header' %>
+    14:     <div class="container">
+    15:       <%= render 'flash_messages' %>
+    16:       <%= yield %>
+    17:       <%= render 'layouts/footer' %>
+    18:       <%= debug(params) if Rails.env.development? %>
+  
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___2924721205375246906_70168403283540'
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.8ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (121.2ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/login" for ::1 at 2016-08-04 14:11:53 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial sessions/_flash_messages, application/_flash_messages with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Witherberry/src/railsprojects/LightVestDunzo/app/views"
+):
+    12:   <body>
+    13:     <%= render 'layouts/header' %>
+    14:     <div class="container">
+    15:       <%= render 'flash_messages' %>
+    16:       <%= yield %>
+    17:       <%= render 'layouts/footer' %>
+    18:       <%= debug(params) if Rails.env.development? %>
+  
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___2924721205375246906_70168386499400'
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (110.5ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/login" for ::1 at 2016-08-04 14:12:20 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_flash_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 90ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:12:20 -0400
+Started GET "/users/3" for ::1 at 2016-08-04 14:12:26 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Redirected to http://localhost:3000/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:12:26 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_flash_messages.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (7.8ms)
+Completed 200 OK in 91ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:12:32 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_flash_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 80ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:12:35 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 81ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/password_resets/new" for ::1 at 2016-08-04 14:12:38 -0400
+Processing by PasswordResetsController#new as HTML
+  Rendering password_resets/new.html.erb within layouts/application
+  Rendered password_resets/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_flash_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 133ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:14:54 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_flash_messages.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (12.3ms)
+Completed 200 OK in 309ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:14:55 -0400
+Started GET "/signup" for ::1 at 2016-08-04 14:14:57 -0400
+Processing by UsersController#new as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:14:57 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 83ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2016-08-04 14:15:00 -0400
+Processing by UsersController#new as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:15:00 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_flash_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 88ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:15:59 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_flash_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (3.3ms)
+Completed 200 OK in 88ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:16:00 -0400
+Started GET "/signup" for ::1 at 2016-08-04 14:16:01 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 84ms (ActiveRecord: 1.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
+  
+app/controllers/users_controller.rb:78:in `correct_user'
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (116.7ms)
+Started GET "/signup" for ::1 at 2016-08-04 14:16:15 -0400
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `admin?' for nil:NilClass):
+  
+app/controllers/users_controller.rb:84:in `admin_user'
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (128.9ms)
+Started GET "/signup" for ::1 at 2016-08-04 14:16:51 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  [1m[36mPlan Load (0.4ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (16.8ms)
+  Rendered users/_credit_card.html.erb (18.0ms)
+  Rendered users/new.html.erb within layouts/application (90.4ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_flash_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (3.5ms)
+Completed 200 OK in 278ms (Views: 172.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:16:51 -0400
+Started GET "/signup" for ::1 at 2016-08-04 14:16:58 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  [1m[36mPlan Load (0.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (12.1ms)
+  Rendered users/_credit_card.html.erb (2.0ms)
+  Rendered users/new.html.erb within layouts/application (37.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (3.6ms)
+Completed 200 OK in 154ms (Views: 118.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/signup" for ::1 at 2016-08-04 14:17:16 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.9ms)
+  [1m[36mPlan Load (0.6ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (2.3ms)
+  Rendered users/_credit_card.html.erb (2.3ms)
+  Rendered users/new.html.erb within layouts/application (29.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 112ms (Views: 107.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:17:16 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:17:17 -0400
+Started GET "/signup" for ::1 at 2016-08-04 14:17:31 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  [1m[36mPlan Load (0.6ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (3.4ms)
+  Rendered users/_credit_card.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (27.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 110ms (Views: 105.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:17:31 -0400
+Started GET "/signup" for ::1 at 2016-08-04 14:17:53 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (1.1ms)
+  [1m[36mPlan Load (0.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (1.8ms)
+  Rendered users/_credit_card.html.erb (2.7ms)
+  Rendered users/new.html.erb within layouts/application (28.5ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 111ms (Views: 107.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:17:53 -0400
+Started GET "/signup" for ::1 at 2016-08-04 14:18:02 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.6ms)
+  [1m[36mPlan Load (0.5ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (2.1ms)
+  Rendered users/_credit_card.html.erb (1.8ms)
+  Rendered users/new.html.erb within layouts/application (24.3ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_flash_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 103ms (Views: 99.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/credit-card-icon-2a3745e14f2f6746ca5433f9f58ef6062035bbe87f2f2d0781457abf3e5eaa39.png" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:18:02 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:18:02 -0400
+Started POST "/users" for ::1 at 2016-08-04 14:22:24 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xJPLkilD+UBPRF7cjbUp5cTzZ7q3stybolHwPFvpJeWQjzA2CqT4dddz0eIbGJmlK5keUs7JTVkG2nHx+yrydw==", "user"=>{"username"=>"asdfasdf", "name"=>"asdf@asdf.com", "email"=>"asdfasdf@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "plan"=>"starter_plan", "stripeToken"=>"tok_18eqU7BProJYO6FDYUtsdfHX"}
+Redirected to http://localhost:3000/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-08-04 14:22:24 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_flash_messages.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (3.5ms)
+Completed 200 OK in 91ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35mSQL (6.3ms)[0m  [1m[31mDELETE FROM "users"[0m
+Started GET "/login" for ::1 at 2016-08-04 14:23:15 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_flash_messages.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (3.7ms)
+Completed 200 OK in 105ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:23:15 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:23:25 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:23:25 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:23:25 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:23:25 -0400
+Started GET "/assets/favicon-0a0757c52aba2900c36c4d38cf4f9cc9c430386d9f6d2279f5d567c7ab25d9b2.ico" for ::1 at 2016-08-04 14:23:26 -0400
+Started GET "/signup" for ::1 at 2016-08-04 14:23:30 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.8ms)
+  [1m[36mPlan Load (0.2ms)[0m  [1m[34mSELECT "plans".* FROM "plans"[0m
+  Rendered users/_plans.html.erb (12.4ms)
+  Rendered users/_credit_card.html.erb (2.1ms)
+  Rendered users/new.html.erb within layouts/application (42.4ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (3.7ms)
+Completed 200 OK in 169ms (Views: 128.7ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/users" for ::1 at 2016-08-04 14:23:52 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"46zXW8H2OW7MjUf2rhIPuK0Nv4njGdfY1H0cXrU3gQa3sCz/4hE4W1S6yMg4v7/4QmfGYZpiRhpw9p2TFfRWlA==", "user"=>{"username"=>"tadtad", "name"=>"tad", "email"=>"tad@tad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "plan"=>"starter_plan", "stripeToken"=>"tok_18eqVYBProJYO6FDmFoR8VrE"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 16ms (ActiveRecord: 1.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=):
+  
+app/controllers/users_controller.rb:79:in `correct_user'
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendering /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/Witherberry/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.2ms)
+Started POST "/users" for ::1 at 2016-08-04 14:24:15 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"46zXW8H2OW7MjUf2rhIPuK0Nv4njGdfY1H0cXrU3gQa3sCz/4hE4W1S6yMg4v7/4QmfGYZpiRhpw9p2TFfRWlA==", "user"=>{"username"=>"tadtad", "name"=>"tad", "email"=>"tad@tad.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "plan"=>"starter_plan", "stripeToken"=>"tok_18eqVYBProJYO6FDmFoR8VrE"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "tad@tad.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest", "role", "activation_digest", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "tad"], ["email", "tad@tad.com"], ["created_at", 2016-08-04 18:24:15 UTC], ["updated_at", 2016-08-04 18:24:15 UTC], ["password_digest", "$2a$10$yJdrF8q355QfROTQtVv8z.ays4HeqM4sjPzT9moYzHQvYCd7ZqBAC"], ["role", 0], ["activation_digest", "$2a$10$ZLdVj0.3Q0oIacbuppzvQutvS8EmM4B1v1MixMMr8nNBcQbZNCuKS"], ["username", "tadtad"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tad@tad.com"], ["LIMIT", 1]]
+  [1m[36mPlan Load (0.3ms)[0m  [1m[34mSELECT  "plans".* FROM "plans" WHERE "plans"."stripe_id" = ? LIMIT ?[0m  [["stripe_id", "starter_plan"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) AND ("users"."id" != ?) LIMIT ?[0m  [["email", "tad@tad.com"], ["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "stripe_customer_id" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["stripe_customer_id", "cus_8wk0LAJ4zvSI2k"], ["updated_at", 2016-08-04 18:24:26 UTC], ["id", 4]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "subscriptions" ("user_id", "plan_id", "stripe_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["user_id", 4], ["plan_id", 1], ["stripe_id", "sub_8wk0VMc5ZbixMi"], ["created_at", 2016-08-04 18:24:26 UTC], ["updated_at", 2016-08-04 18:24:26 UTC]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "versions" ("item_type", "item_id", "event", "created_at", "object_changes") VALUES (?, ?, ?, ?, ?)[0m  [["item_type", "Subscription"], ["item_id", 2], ["event", "create"], ["created_at", 2016-08-04 18:24:26 UTC], ["object_changes", "---\nid:\n- \n- 2\nuser_id:\n- \n- 4\nplan_id:\n- \n- 1\nstripe_id:\n- \n- sub_8wk0VMc5ZbixMi\ncreated_at:\n- \n- 2016-08-04 18:24:26.500203000 Z\nupdated_at:\n- \n- 2016-08-04 18:24:26.500203000 Z\n"]]
+  [1m[35m (623.3ms)[0m  [1m[36mcommit transaction[0m
+  Rendering user_mailer/account_activation.html.erb within layouts/mailer
+  Rendered user_mailer/account_activation.html.erb within layouts/mailer (4.1ms)
+  Rendering user_mailer/account_activation.text.erb within layouts/mailer
+  Rendered user_mailer/account_activation.text.erb within layouts/mailer (0.9ms)
+UserMailer#account_activation: processed outbound mail in 429.8ms
+Sent mail to tad@tad.com (19.1ms)
+Date: Thu, 04 Aug 2016 14:24:28 -0400
+From: from@example.com
+To: tad@tad.com
+Message-ID: <57a3885c8d021_126d23fd157a759a039832@Thads-MBP.mail>
+Subject: Account activation
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_57a3885c895af_126d23fd157a759a0397b2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_57a3885c895af_126d23fd157a759a0397b2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi tad,
+
+Welcome to the LightVest! Click on the link below to activate your account:
+
+http://localhost:3000/account_activations/njAX4YVON5sYg_3lidPwiQ/edit?email=tad%40tad.com
+
+
+----==_mimepart_57a3885c895af_126d23fd157a759a0397b2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>LightVest</h1>
+
+<p>Hi tad,</p>
+
+<p>
+Welcome to LightVest! Click on the link below to activate your account:
+</p>
+
+<a href="http://localhost:3000/account_activations/njAX4YVON5sYg_3lidPwiQ/edit?email=tad%40tad.com">Activate</a>
+
+  </body>
+</html>
+
+----==_mimepart_57a3885c895af_126d23fd157a759a0397b2--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 12953ms (ActiveRecord: 637.4ms)
+
+
+Started GET "/" for ::1 at 2016-08-04 14:24:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (3.1ms)
+Completed 200 OK in 123ms (Views: 112.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/custom.self-bc912fafebdb4a34826803c7ee1199906e731730ae475d896978b70f732305e0.css?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/users.self-41c487ec26d3386ca99e5412647a3ef319d1fb56c45e188dbe6cdcd09ae1fa5f.css?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/account_activations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/application.self-c4991312985bccd133f1f21ab2f6a5d0129a8416a91037313b14f05d7d2e7dde.css?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/rails.validations.self-b6cd8d2e8a4b18546cdf654001490a18bde4fcf87c213907f50365138f34fc93.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/account_activations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/password_resets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/plan.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/subscriptions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2016-08-04 14:24:28 -0400
+Started GET "/assets/users.self-8f5a96a522d53d6d83248081c86d733cac9d0b02cddd6bea7410be38f6a5cbe9.js?body=1" for ::1 at 2016-08-04 14:24:29 -0400
+Started GET "/assets/password_resets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:24:38 -0400
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-08-04 14:24:38 -0400
+Started GET "/assets/rushlightlogo-a492aa99efca99ba77448030405591bfff291f3e53273e4ed4fb78dde342072a.png" for ::1 at 2016-08-04 14:24:38 -0400
+Started GET "/login" for ::1 at 2016-08-04 14:26:24 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (3.3ms)
+Completed 200 OK in 95ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (9.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started POST "/login" for ::1 at 2016-08-04 14:26:39 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l94Vj2ATKYPdjeIpRZBJ/DyIxOvvcp9qaZsM5bOT8VrDwu4rQ/QotkW6bRfTPfm80+K9A5YJDqjNEI0oE1AmyA==", "session"=>{"email"=>"tad@tad.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tad@tad.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 119ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2016-08-04 14:26:39 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_flash_messages.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 83ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account_activations/njAX4YVON5sYg_3lidPwiQ/edit?email=tad%40tad.com" for ::1 at 2016-08-04 14:27:01 -0400
+Processing by AccountActivationsController#edit as HTML
+  Parameters: {"email"=>"tad@tad.com", "id"=>"njAX4YVON5sYg_3lidPwiQ"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tad@tad.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "activated" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["activated", true], ["updated_at", 2016-08-04 18:27:01 UTC], ["id", 4]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = ?, "activated_at" = ? WHERE "users"."id" = ?[0m  [["updated_at", 2016-08-04 18:27:01 UTC], ["activated_at", 2016-08-04 18:27:01 UTC], ["id", 4]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users/4
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Completed 302 Found in 106ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/users/4" for ::1 at 2016-08-04 14:27:01 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 110ms (Views: 83.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/4" for ::1 at 2016-08-04 14:27:08 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_flash_messages.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 95ms (Views: 89.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/4/edit" for ::1 at 2016-08-04 14:27:12 -0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  Rendered users/edit.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_flash_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 172ms (Views: 103.8ms | ActiveRecord: 0.4ms)
+
+
